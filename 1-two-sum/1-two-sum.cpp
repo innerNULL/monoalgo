@@ -17,8 +17,8 @@ public:
                 }
             }
         }
-        output.push_back(-1);
-        output.push_back(-1);
+        output.emplace_back(-1);
+        output.emplace_back(-1);
         return output;
     }
 };
