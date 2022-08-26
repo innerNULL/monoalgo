@@ -10,8 +10,8 @@ public:
                 int b = nums[j];
                 
                 if ((a + b) == target) {
-                    output.push_back(i);
-                    output.push_back(j);
+                    output.emplace_back(i);
+                    output.emplace_back(j);
                     //printf("The result is: %i, %i\n", i, j);
                     return output;
                 }
