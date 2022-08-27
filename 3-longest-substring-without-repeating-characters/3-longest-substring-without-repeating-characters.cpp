@@ -53,13 +53,13 @@ public:
         register_str(ctx, s.at(0));
         
         while (ctx->end_idx < s.size() - 1) {
-            printf("step 1\n");
+            //printf("step 1\n");
             while (ctx->end_idx < s.size() - 1) {
                 ctx->end_idx += 1;
                 if (ctx->end_idx >= s.size()) { break; }
                 
                 register_str(ctx, s.at(ctx->end_idx));
-                print_ctx(ctx);
+                //print_ctx(ctx);
                 int32_t curr_len = ctx->end_idx - ctx->start_idx + 1;
                 if (ctx->dup_num >= 1 || ctx->end_idx >= s.size()) { 
                     break; 
@@ -68,15 +68,15 @@ public:
                     ctx->max_len = curr_len;
                 }
             }
-            printf("step 2\n");
+            //printf("step 2\n");
             while (ctx->start_idx < ctx->end_idx) {
                 deregister_str(ctx, s.at(ctx->start_idx));
                 ctx->start_idx += 1;
-                print_ctx(ctx);
+                //print_ctx(ctx);
                 if (ctx->dup_num == 0) { break; }
             }
         }
-        printf("end\n");
+        //printf("end\n");
         return ctx->max_len;
     }
 };
