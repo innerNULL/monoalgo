@@ -7,6 +7,31 @@ public:
         int32_t end_idx = nums.size() - 1;
         int32_t mid_idx = -1;
         
+        while (start_idx < end_idx) {
+            int32_t mid_idx = (start_idx + end_idx) / 2;
+            int32_t mid_val = nums[mid_idx];
+            
+            if (mid_val == target) {
+                target_idx = mid_idx;
+                break;
+            } else if (mid_val < target) {
+                start_idx = mid_idx + 1;
+            } else {
+                end_idx = mid_idx;
+            }
+        }
+        if (nums[start_idx] == target) { target_idx = start_idx; }
+        return target_idx;
+    }
+    
+    
+    int search_v0(vector<int>& nums, int target) {
+        int32_t target_idx = -1;
+        
+        int32_t start_idx = 0;
+        int32_t end_idx = nums.size() - 1;
+        int32_t mid_idx = -1;
+        
         while (true) {
             int32_t mid_idx = (start_idx + end_idx) / 2;
             int32_t mid_val = nums[mid_idx];
