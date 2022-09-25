@@ -4,7 +4,7 @@ public:
         std::unordered_map<int32_t, int32_t> recorder = {};
         std::vector<int32_t> result;
         for (int32_t i = 0; i < nums.size(); ++i) {
-            const int32_t curr = nums[i];
+            const int32_t& curr = nums[i];
             const int32_t left = target - curr;
             if (recorder.find(left) != recorder.end()) {
                 result.emplace_back(i);
