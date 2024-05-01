@@ -1,10 +1,13 @@
-https://leetcode.com/problems/permutations/description/
+## Links
+* [problem](https://leetcode.com/problems/permutations/description/?envType=study-plan-v2&envId=top-interview-150)
 
+
+## Description
 
 46. Permutations
+Solved
 Medium
-17.7K
-283
+Topics
 Companies
 Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 
