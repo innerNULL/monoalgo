@@ -1,5 +1,8 @@
-https://leetcode.com/problems/longest-consecutive-sequence/description/
+## Links
+* [Problem](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
+
+## Description
 
 128. Longest Consecutive Sequence
 Medium
