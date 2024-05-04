@@ -1,6 +1,6 @@
 ## Links
 * [Problem](https://leetcode.com/problems/kth-smallest-element-in-a-bst/?envType=study-plan-v2&envId=top-interview-150)
-
+* [Reference](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solutions/3469071/i-bet-you-will-understand-brute-better-optimal-beginner-friendly-c)
 
 ## Description
 
