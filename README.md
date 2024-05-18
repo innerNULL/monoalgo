@@ -8,6 +8,7 @@ Contains
 ### Rust
 #### Typical Unsafe Usage
 * Play `unsafe` with `Option<&Rc<RefCell<TreeNode>>>`
+    * `leetcode/2415-reverse-odd-levels-of-binary-tree/main_v20240518_1912.rs`
     * `leetcode/104-maximum-depth-of-binary-tree/main_v20240508_2339.rs`
     * `leetcode/104-maximum-depth-of-binary-tree/main_v20240509_0001.rs`
 * Global Variable Usage
