@@ -6,6 +6,9 @@ Contains
 
 ## References
 ### Rust
+#### Iterator + Lambda 
+* Make operations on iterator like structions concise
+    * `leetcode/2455-average-value-of-even-numbers-that-are-divisible-by-three/main_v20240518_2309.rs`
 #### Typical Unsafe Usage
 * Play `unsafe` with `Option<&Rc<RefCell<TreeNode>>>`
     * `leetcode/2415-reverse-odd-levels-of-binary-tree/main_v20240518_1912.rs`
