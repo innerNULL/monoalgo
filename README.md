@@ -6,6 +6,9 @@ Contains
 
 ## References
 ### Rust
+#### Fighting With `Box`
+* Deal Lifetime Issue with `Box<ListNode>`
+    * `leetnote/leetcode/143-reorder-list/main_v20240521_2052.rs` 
 #### Iterator + Lambda 
 * Make operations on iterator like structions concise
     * `leetcode/2455-average-value-of-even-numbers-that-are-divisible-by-three/main_v20240518_2309.rs`
