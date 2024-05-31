@@ -25,7 +25,7 @@ use std::cell::RefCell;
 fn iterate(
     cnt: &mut i32, 
     upper_max: i32, 
-    mut node: &Option<Rc<RefCell<TreeNode>>>
+    node: &Option<Rc<RefCell<TreeNode>>>
 ) {
     match node {
         None => {
@@ -33,10 +33,8 @@ fn iterate(
         },
         Some(x) => {
             let val: i32 = x.as_ref().borrow().val;
-            let left: &Option<Rc<RefCell<TreeNode>>> = 
-                &x.as_ref().borrow().left;
-            let right: &Option<Rc<RefCell<TreeNode>>> = 
-                &x.as_ref().borrow().right;
+            let left: &Option<Rc<RefCell<TreeNode>>> = &x.borrow().left;
+            let right: &Option<Rc<RefCell<TreeNode>>> = &x.borrow().right;
             if val >= upper_max {
                 *cnt += 1;
             }
@@ -50,7 +48,9 @@ fn iterate(
 
 
 impl Solution {
-    pub fn good_nodes(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+    pub fn good_nodes(
+        root: Option<Rc<RefCell<TreeNode>>>
+    ) -> i32 {
         let mut cnt: i32 = 0;
         iterate(&mut cnt, i32::MIN, &root);
         return cnt;
