@@ -8,7 +8,8 @@ Contains
 ### Rust
 #### Dancing With `Rc<RefCell<>>`
 * Tree
-    * `leetnote/leetcode/1448-count-good-nodes-in-binary-tree`
+    * `leetcode/1448-count-good-nodes-in-binary-tree/main_v20240531_1750.rs`
+    * `leetcote/1161-maximum-level-sum-of-a-binary-tree/main_v20240601_0935.rs`
 #### Fighting With `Box`
 * Deal Lifetime Issue with `Box<ListNode>`
     * `leetnote/leetcode/143-reorder-list/main_v20240521_2052.rs` 
