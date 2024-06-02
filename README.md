@@ -6,6 +6,8 @@ Contains
 
 ## References
 ### Rust
+#### Global Variable
+* `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
 #### Dancing With `Rc<RefCell<>>`
 * Tree
     * `leetcode/1448-count-good-nodes-in-binary-tree/main_v20240531_1750.rs`
