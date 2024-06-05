@@ -1,2 +1,3 @@
-# leetnote
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+# LeetCode
+## DP
+* [1143-longest-common-subsequence](https://github.com/innerNULL/leetnote/tree/main/leetcode/1143-longest-common-subsequence)
