@@ -6,6 +6,8 @@ Contains
 
 ## References
 ### Rust
+#### Very Functional Cases
+* `leetcode/648-replace-words/main_v20240607_1311.rs`
 #### Global Variable
 * `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
 #### Dancing With `Rc<RefCell<>>`
