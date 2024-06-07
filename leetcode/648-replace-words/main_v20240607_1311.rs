@@ -9,12 +9,10 @@ impl Solution {
         let mut prefixs: HashSet<String> = dictionary
             .into_iter()
             .collect();
-        let mut out: Vec<String> = sentence
+        return sentence
             .split(" ")
-            .collect::<Vec<&str>>()
-            .iter()
             .map(
-                |x: &&str| { 
+                |x: &str| { 
                     let word: String = (*x).to_string();
                     for i in 1..=word.len() {
                         let curr_prefix: String = word[0..i].to_string();
@@ -25,9 +23,6 @@ impl Solution {
                     return word;
                 }
             )
-            .collect::<Vec<String>>();
-        return out
-            .into_iter()
             .reduce(|acc: String, x: String| { acc + " " + &x })
             .unwrap();
     }
