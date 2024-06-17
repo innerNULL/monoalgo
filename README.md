@@ -18,8 +18,10 @@ Contains
     * Writable
         * `leetcode/700-search-in-a-binary-search-tree/main_v20240606_2151.rs`
 #### Fighting With `Box`
+* Hack `Box<_>` with `unsafe`
+    * `leetcode/1721-swapping-nodes-in-a-linked-list/main_v20240617_0939.rs`
 * Deal Lifetime Issue with `Box<ListNode>`
-    * `leetnote/leetcode/143-reorder-list/main_v20240521_2052.rs` 
+    * `leetnote/leetcode/143-reorder-list/main_v20240521_2052.rs`
 #### Iterator Magics
 * `leetcode/22-generate-parentheses/main_v20240612_2335.rs`
 #### Iterator + Lambda 
