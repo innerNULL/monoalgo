@@ -8,6 +8,8 @@ Contains
 ### LeetCode
 * Backtracking
     * `leetcode/39-combination-sum`
+* General
+    * `leetcode/1550-three-consecutive-odds`
 
 ## References
 ### Rust
