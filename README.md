@@ -17,6 +17,7 @@ Contains
 * `leetcode/648-replace-words/main_v20240607_1311.rs`
 * `leetcode/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/main_v20240629_1302.rs`
 * `leetcode/1935-maximum-number-of-words-you-can-type/main_v20240629_1802.rs`
+* `leetcode/350-intersection-of-two-arrays-ii/main_v20240702_2139.rs`
 #### Global Variable
 * `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
 #### Dancing With `Rc<RefCell<>>`
