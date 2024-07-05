@@ -18,6 +18,7 @@ Contains
 * `leetcode/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/main_v20240629_1302.rs`
 * `leetcode/1935-maximum-number-of-words-you-can-type/main_v20240629_1802.rs`
 * `leetcode/350-intersection-of-two-arrays-ii/main_v20240702_2139.rs`
+* `leetcode/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/main_v20240706_0050.rs`
 #### Global Variable
 * `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
 #### Dancing With `Rc<RefCell<>>`
