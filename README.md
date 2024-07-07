@@ -10,6 +10,7 @@ Contains
     * `leetcode/39-combination-sum`
 * General
     * `leetcode/1550-three-consecutive-odds`
+    * `leetcode/1518-water-bottles`
 
 ## References
 ### Rust
