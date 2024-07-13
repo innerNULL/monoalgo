@@ -43,9 +43,6 @@ impl Solution {
         word: String
     ) -> bool {
         let chars: Vec<char> = word.chars().collect::<Vec<char>>();
-        let mut flag: Vec<Vec<i8>> = vec![
-            vec![0; board[0].len()]; board.len()
-        ];
         let mut trace: HashSet<(usize, usize)> = HashSet::new();
         for x in 0..board.len() {
             for y in 0..board[0].len() {
