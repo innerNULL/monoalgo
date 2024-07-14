@@ -13,6 +13,7 @@ Contains
 * **General**
     * `leetcode/1550-three-consecutive-odds`
     * `leetcode/1518-water-bottles`
+    * `leetcode/268-missing-number`
     
 
 ## References
