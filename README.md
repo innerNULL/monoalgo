@@ -26,6 +26,8 @@ Contains
 * `leetcode/2149-rearrange-array-elements-by-sign/main_v20240706_1052.rs`
 * `leetcode/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/main_v20240706_0050.rs`
 * `leetcode/72-edit-distance/main_v20240715_2256.rs`
+* `leetcode/sum-of-digits-of-string-after-convert`
+
 #### Global Variable
 * `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
 #### Dancing With `Rc<RefCell<>>`
