@@ -63,7 +63,6 @@ impl Solution {
                     |x: char| { x.to_string().parse::<i32>().unwrap() }
                 )
                 .collect::<Vec<i32>>();
-                vec_print(&digits);
         }
         return digits.into_iter().sum::<i32>();
     }
