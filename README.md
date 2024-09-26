@@ -12,10 +12,13 @@ Contains
     * `leetcode/39-combination-sum`
 * **DP**
     * `leetcode/maximal-square`
+* **Recurrsive**
+    * `leetcode/kth-largest-element-in-an-array`
 * **General**
     * `leetcode/1550-three-consecutive-odds`
     * `leetcode/1518-water-bottles`
     * `leetcode/268-missing-number`
+
 
 ## References
 ### Rust
