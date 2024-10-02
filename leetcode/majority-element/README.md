@@ -1,5 +1,9 @@
-https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+## Links
+* [Problem](https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150)
 
+
+## Description
+```
 169. Majority Element
 Easy
 16.4K
@@ -29,3 +33,4 @@ n == nums.length
  
 
 Follow-up: Could you solve the problem in linear time and in O(1) space?
+```
