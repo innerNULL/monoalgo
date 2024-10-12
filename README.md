@@ -8,6 +8,7 @@ Contains
 ### LeetCode
 * **DFS**
     * `leetcode/79-word-search`
+    * `leetcode/jump-game`
 * **Backtracking**
     * `leetcode/39-combination-sum`
 * **DP**
