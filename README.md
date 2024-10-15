@@ -16,6 +16,8 @@ Contains
 * **Recurrsive**
     * `leetcode/kth-largest-element-in-an-array`
     * `leetcode/surrounded-regions`
+* **Double Pointer**
+    * `leetcode/minimum-size-subarray-sum`
 * **General**
     * `leetcode/1550-three-consecutive-odds`
     * `leetcode/1518-water-bottles`
