@@ -1,9 +1,9 @@
-Problem
-https://leetcode.com/problems/valid-palindrome/?envType=study-plan-v2&envId=top-interview-150
+## Links
+* [Problem](https://leetcode.com/problems/valid-palindrome/?envType=study-plan-v2&envId=top-interview-150)
 
 
-Description
-
+## Description
+```
 125. Valid Palindrome
 Easy
 Topics
@@ -36,3 +36,4 @@ Constraints:
 
 1 <= s.length <= 2 * 105
 s consists only of printable ASCII characters.
+```
