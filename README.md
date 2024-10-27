@@ -38,6 +38,8 @@ Contains
 
 #### Global Variable
 * `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
+#### Fighting With Linked-List
+* `leetcode/reverse-linked-list/main_v20241027_0935.rs`
 #### Dancing With `Rc<RefCell<>>`
 * Tree
     * Classical Cases
