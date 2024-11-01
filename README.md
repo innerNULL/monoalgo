@@ -35,6 +35,7 @@ Contains
 * `leetcode/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/main_v20240706_0050.rs`
 * `leetcode/72-edit-distance/main_v20240715_2256.rs`
 * `leetcode/sum-of-digits-of-string-after-convert`
+* `leetcode/delete-characters-to-make-fancy-string`
 
 #### Global Variable
 * `leetcode/45-jump-game-ii/main_v20240602_1515.rs`
